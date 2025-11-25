@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: #111;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    background: #00ffaa;
+    border: none;
+    border-radius: 8px;
+}
+
+#qrBox {
+    margin-top: 20px;
+}

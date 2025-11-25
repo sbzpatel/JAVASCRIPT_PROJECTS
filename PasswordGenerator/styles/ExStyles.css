@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    background: #f3f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background: #fff;
+    padding: 18px;
+    border-radius:  10px;
+    box-shadow:0 10px 30px rgba(2,6,23,.06);
+    width: 420px;
+}
+
+.row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    width: 70px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background: #1e90ff;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 14px;
+}
+
+.out {
+    margin-top: 14px;
+    font-family: monospace;
+    background: #f7f9ff;
+    padding: 10px;
+    border-radius: 6px;
+}

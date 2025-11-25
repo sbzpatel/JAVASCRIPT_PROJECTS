@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="styles/ExStyles.css" />
+</head>
+<body>
+    <div class="card">
+        <h2>Random Password Generator</h2>
+
+        <div class="row">
+            <label>length</label>
+            <input type="number" id="len" min="4" max="128" value="12" />
+            <button id="gen">Generator</button>
+        </div>
+
+        <div style="margin-top: 8px;">
+            <label><input type="checkbox" id="lower" checked /> lowercase</label>
+            <label><input type="checkbox" id="upper" checked /> uppercase</label>
+            <label><input type="checkbox" id="num" checked /> numbers</label>
+            <label><input type="checkbox" id="sym" checked /> symbols</label>
+        </div>
+
+        <div class="out" id="out">Your secure password appears here...</div>
+        <button id="copy" style="margin-top:8px;background:#00c853">COPY</button>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
